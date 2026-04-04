@@ -1,4 +1,4 @@
-import { supabase } from "@/lib/supabase";
+/*import { supabase } from "@/lib/supabase";
 import { redirect } from "next/navigation";
 
 export default async function Home() {
@@ -11,4 +11,10 @@ export default async function Home() {
   } else {
     redirect("/login");
   }
+}*/
+
+import { redirect } from "next/navigation";
+
+export default function Home() {
+  redirect("/login");
 }
